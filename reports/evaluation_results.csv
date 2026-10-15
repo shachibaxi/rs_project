@@ -1,0 +1,153 @@
+experiment,data_source,method,metric,value,n_evaluated
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,Precision@10,0.522,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,Recall@10,0.05855779804628594,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,NDCG@10,0.5627924850892632,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,MRR@10,0.7986617063492063,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,HitRate@10,0.9475,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,Diversity (ILD),0.8519350529278514,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,Precision@10,0.03675,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,Recall@10,0.002673989209867863,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,NDCG@10,0.03903054100487486,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,MRR@10,0.10964087301587302,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,HitRate@10,0.3075,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,Diversity (ILD),0.9849202391089943,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,Precision@10,0.040249999999999994,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,Recall@10,0.003112085738258985,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,NDCG@10,0.035210675208311504,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,MRR@10,0.06301984126984127,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,HitRate@10,0.265,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,Diversity (ILD),0.9729992696975639,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Content-based,Catalogue coverage,0.6293808411214953,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Random baseline,Catalogue coverage,0.6872079439252337,400
+A. Similar courses,Real catalogue - proxy label (same subdomain),Top-rated baseline,Catalogue coverage,0.0032126168224299065,400
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,NDCG@10 (topic + level),0.6256308792550191,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Precision@10,0.6575757575757575,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Recall@10,0.018278597121246982,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,NDCG@10,0.6716264743811033,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,MRR@10,0.839506172839506,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,HitRate@10,1.0,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Gap coverage@10,0.9736211319544653,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Level fit@10,0.8595959595959597,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Diversity (ILD),0.9280752067078261,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),NDCG@10 (topic + level),0.6504235108019542,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Precision@10,0.6868686868686869,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Recall@10,0.0190478082012422,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),NDCG@10,0.7014880324590286,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),MRR@10,0.8373015873015872,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),HitRate@10,0.98989898989899,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Gap coverage@10,0.9595358345358346,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Level fit@10,0.8515151515151514,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Diversity (ILD),0.9034376856624826,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),NDCG@10 (topic + level),0.5497539348175955,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Precision@10,0.7393939393939393,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Recall@10,0.021337754740662233,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),NDCG@10,0.7474377454182658,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),MRR@10,0.8597643097643097,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),HitRate@10,1.0,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Gap coverage@10,0.9526936026936027,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Level fit@10,0.592929292929293,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Diversity (ILD),0.8844347682474649,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,NDCG@10 (topic + level),0.5627026914727498,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Precision@10,0.5686868686868687,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Recall@10,0.015361031561384481,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,NDCG@10,0.5856083162054003,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,MRR@10,0.743097643097643,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,HitRate@10,0.9292929292929293,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Gap coverage@10,0.955367163700497,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Level fit@10,0.9000000000000001,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Diversity (ILD),0.9193607545338851,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,NDCG@10 (topic + level),0.40457027421536534,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Precision@10,0.7636363636363636,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Recall@10,0.02260222164422041,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,NDCG@10,0.7779083971984266,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,MRR@10,0.9040404040404039,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,HitRate@10,1.0,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Gap coverage@10,0.9187830687830687,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Level fit@10,0.3333333333333334,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Diversity (ILD),0.8731022483217429,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,NDCG@10 (topic + level),0.0961826240584786,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Precision@10,0.14545454545454545,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Recall@10,0.003694182938736802,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,NDCG@10,0.19236524811695724,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,MRR@10,0.42272727272727273,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,HitRate@10,0.6363636363636364,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Gap coverage@10,0.35995670995671,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Level fit@10,0.3333333333333333,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Diversity (ILD),0.973066939685905,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,NDCG@10 (topic + level),0.056972098086398824,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Precision@10,0.10505050505050506,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Recall@10,0.002599479908771306,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,NDCG@10,0.10269045327108099,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,MRR@10,0.21513147346480682,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,HitRate@10,0.6161616161616161,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Gap coverage@10,0.338985088985089,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Level fit@10,0.31313131313131315,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Diversity (ILD),0.9852988491788671,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Catalogue coverage,0.12266355140186916,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Catalogue coverage,0.12324766355140188,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Catalogue coverage,0.09082943925233646,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Catalogue coverage,0.11799065420560748,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Catalogue coverage,0.055782710280373834,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Catalogue coverage,0.0029205607476635513,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Catalogue coverage,0.24912383177570094,99
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated) + diversity,Beginner-vs-Advanced overlap (Jaccard),0.011341485025695552,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (cross-validated),Beginner-vs-Advanced overlap (Jaccard),0.009569377990430622,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Hybrid (hand-set weights),Beginner-vs-Advanced overlap (Jaccard),0.26753538286046025,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Knowledge-based,Beginner-vs-Advanced overlap (Jaccard),0.003189792663476874,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Content-based,Beginner-vs-Advanced overlap (Jaccard),1.0,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Top-rated baseline,Beginner-vs-Advanced overlap (Jaccard),1.0,33
+B. Learner profiles,Real catalogue - proxy labels (career-related subdomain; graded by level),Random baseline,Beginner-vs-Advanced overlap (Jaccard),0.0,33
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),Precision@10,0.00575,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),Recall@10,0.029166666666666667,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),NDCG@10,0.018197688675633924,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),MRR@10,0.020118055555555556,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),HitRate@10,0.05583333333333333,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),Precision@10,0.00475,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),Recall@10,0.02347222222222222,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),NDCG@10,0.014087581591661524,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),MRR@10,0.01608101851851852,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),HitRate@10,0.04666666666666667,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,Precision@10,0.004666666666666667,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,Recall@10,0.023333333333333334,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,NDCG@10,0.014275306683813703,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,MRR@10,0.01630919312169312,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,HitRate@10,0.04583333333333333,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),Precision@10,0.0020000000000000005,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),Recall@10,0.01,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),NDCG@10,0.004635896446358094,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),MRR@10,0.00402744708994709,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),HitRate@10,0.02,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),Precision@10,0.0035,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),Recall@10,0.01673611111111111,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),NDCG@10,0.008575510467567155,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),MRR@10,0.008425595238095239,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),HitRate@10,0.035,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),Precision@10,0.007083333333333333,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),Recall@10,0.03569444444444444,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),NDCG@10,0.020241937850454764,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),MRR@10,0.021310846560846565,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),HitRate@10,0.06916666666666667,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,Precision@10,0.0005833333333333334,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,Recall@10,0.0025,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,NDCG@10,0.0010926924612395979,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,MRR@10,0.0008773148148148148,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,HitRate@10,0.005833333333333334,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,Precision@10,0.00075,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,Recall@10,0.0034722222222222216,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,NDCG@10,0.0018057392535753296,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,MRR@10,0.001783068783068783,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,HitRate@10,0.0075,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),Precision@10,0.022833333333333334,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),Recall@10,0.11069444444444443,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),NDCG@10,0.07124185836249593,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),MRR@10,0.08184920634920635,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),HitRate@10,0.2025,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (tuned on validation),Catalogue coverage,0.2876752336448598,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Hybrid (default weights),Catalogue coverage,0.14164719626168223,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Item-kNN CF,Catalogue coverage,0.552570093457944,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Content-based (history),Catalogue coverage,0.5315420560747663,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Knowledge-based (persona),Catalogue coverage,0.10251168224299065,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Most-completed (synthetic popularity),Catalogue coverage,0.0040887850467289715,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Top-rated baseline,Catalogue coverage,0.02219626168224299,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Random baseline,Catalogue coverage,0.9661214953271028,1200
+C. Synthetic interactions,"SYNTHETIC interactions (generated, not real learners)",Generator oracle (upper reference),Catalogue coverage,0.0540303738317757,1200

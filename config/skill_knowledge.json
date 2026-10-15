@@ -1,0 +1,223 @@
+{
+  "_about": "MANUALLY DEFINED KNOWLEDGE. Nothing in this file was learned from the Coursera dataset or from industry data. It is a small, editable knowledge base written for the SkillBridge mini-project: a vocabulary of skills (with the keywords used to find them in course text), prerequisite relationships between skills, and the skills each career goal is assumed to need. 'prerequisites' is a list of groups; a learner satisfies a group if they have ANY one skill in it, and must satisfy EVERY group. 'related_subdomains' are Coursera subdomain slugs used ONLY as an offline-evaluation proxy label, never as a recommendation feature.",
+  "version": 1,
+  "skills": {
+    "Computer Programming Fundamentals": {
+      "keywords": ["computer programming", "programming language", "programming languages", "programming fundamentals", "introduction to programming"],
+      "prerequisites": []
+    },
+    "Python Programming": {
+      "keywords": ["python", "python programming", "python 3"],
+      "prerequisites": []
+    },
+    "R Programming": {
+      "keywords": ["r programming", "rstudio", "tidyverse", "ggplot2", "dplyr"],
+      "prerequisites": []
+    },
+    "Java Programming": {
+      "keywords": ["java", "java programming"],
+      "prerequisites": []
+    },
+    "HTML & CSS": {
+      "keywords": ["html", "css", "html5", "css3"],
+      "prerequisites": []
+    },
+    "JavaScript": {
+      "keywords": ["javascript", "node.js", "nodejs", "react", "reactjs", "angular", "jquery"],
+      "prerequisites": [["HTML & CSS"]]
+    },
+    "Statistics": {
+      "keywords": ["statistics", "general statistics", "statistical inference", "probability", "hypothesis testing", "regression analysis", "inferential statistics", "probability & statistics"],
+      "prerequisites": []
+    },
+    "Linear Algebra": {
+      "keywords": ["linear algebra", "matrices", "eigenvalues and eigenvectors", "vector space"],
+      "prerequisites": []
+    },
+    "Calculus": {
+      "keywords": ["calculus", "multivariable calculus", "differential equations", "integral calculus"],
+      "prerequisites": []
+    },
+    "Spreadsheets (Excel)": {
+      "keywords": ["microsoft excel", "excel", "spreadsheet", "spreadsheets", "google sheets", "pivot table"],
+      "prerequisites": []
+    },
+    "SQL & Databases": {
+      "keywords": ["sql", "databases", "database", "mysql", "postgresql", "nosql", "relational database", "database management systems"],
+      "prerequisites": []
+    },
+    "Data Analysis": {
+      "keywords": ["data analysis", "exploratory data analysis", "data cleansing", "data cleaning", "pandas", "data wrangling", "data analytics"],
+      "prerequisites": [["Python Programming", "R Programming", "Spreadsheets (Excel)", "SQL & Databases"]]
+    },
+    "Data Visualization": {
+      "keywords": ["data visualization", "data visualisation", "tableau", "power bi", "dashboard", "matplotlib", "plotly", "visualization (computer graphics)"],
+      "prerequisites": [["Data Analysis", "Spreadsheets (Excel)"]]
+    },
+    "Machine Learning": {
+      "keywords": ["machine learning", "supervised learning", "unsupervised learning", "scikit-learn", "random forest", "decision tree", "statistical classification", "cluster analysis"],
+      "prerequisites": [["Python Programming", "R Programming"], ["Statistics"]]
+    },
+    "Deep Learning": {
+      "keywords": ["deep learning", "neural network", "neural networks", "artificial neural networks", "tensorflow", "keras", "pytorch", "convolutional neural network"],
+      "prerequisites": [["Machine Learning"], ["Linear Algebra", "Calculus"]]
+    },
+    "Natural Language Processing": {
+      "keywords": ["natural language processing", "nlp", "text mining", "sentiment analysis", "language model"],
+      "prerequisites": [["Machine Learning"]]
+    },
+    "Computer Vision": {
+      "keywords": ["computer vision", "image processing", "object detection", "image classification"],
+      "prerequisites": [["Deep Learning"]]
+    },
+    "MLOps & Model Deployment": {
+      "keywords": ["mlops", "model deployment", "machine learning engineering", "machine learning pipelines", "tensorflow serving", "tfx"],
+      "prerequisites": [["Machine Learning"], ["Software Engineering", "Cloud Computing"]]
+    },
+    "Big Data": {
+      "keywords": ["big data", "apache spark", "pyspark", "hadoop", "mapreduce", "apache hadoop"],
+      "prerequisites": [["SQL & Databases"], ["Python Programming", "Java Programming"]]
+    },
+    "Linux & Command Line": {
+      "keywords": ["linux", "command line", "command-line interface", "bash", "shell scripting", "unix"],
+      "prerequisites": []
+    },
+    "Networking": {
+      "keywords": ["computer network", "computer networking", "networking", "tcp/ip", "network protocols", "network architecture"],
+      "prerequisites": []
+    },
+    "Cloud Computing": {
+      "keywords": ["cloud computing", "google cloud platform", "amazon web services", "aws", "microsoft azure", "azure", "cloud infrastructure"],
+      "prerequisites": [["Linux & Command Line", "Networking"]]
+    },
+    "DevOps": {
+      "keywords": ["devops", "docker", "kubernetes", "continuous integration", "continuous delivery", "ci/cd", "containerization", "site reliability engineering"],
+      "prerequisites": [["Linux & Command Line"], ["Software Engineering", "Cloud Computing"]]
+    },
+    "Cybersecurity": {
+      "keywords": ["cybersecurity", "cyber security", "computer security", "information security", "network security", "cryptography", "penetration testing", "ethical hacking", "computer security incident management"],
+      "prerequisites": [["Networking"]]
+    },
+    "Data Structures & Algorithms": {
+      "keywords": ["algorithms", "algorithm", "data structures", "data structure", "graph theory", "dynamic programming", "sorting algorithm"],
+      "prerequisites": [["Computer Programming Fundamentals", "Python Programming", "Java Programming"]]
+    },
+    "Software Engineering": {
+      "keywords": ["software engineering", "software development", "software design", "object-oriented programming", "object oriented programming", "software testing", "agile software development", "version control", "git"],
+      "prerequisites": [["Computer Programming Fundamentals", "Python Programming", "Java Programming", "JavaScript"]]
+    },
+    "Web Development": {
+      "keywords": ["web development", "front-end web development", "front end", "back-end", "full-stack", "web application", "responsive web design", "web design"],
+      "prerequisites": [["JavaScript"]]
+    },
+    "Mobile Development": {
+      "keywords": ["android development", "android", "ios development", "mobile application", "mobile development", "swift", "kotlin", "flutter"],
+      "prerequisites": [["Computer Programming Fundamentals", "Java Programming", "JavaScript", "Python Programming"]]
+    },
+    "UX / UI Design": {
+      "keywords": ["user experience", "user experience design", "ux", "user interface", "ui design", "usability", "prototyping", "wireframe", "figma", "human-computer interaction", "user research"],
+      "prerequisites": []
+    },
+    "Graphic Design": {
+      "keywords": ["graphic design", "adobe photoshop", "adobe illustrator", "typography", "visual design", "graphics"],
+      "prerequisites": []
+    },
+    "Project Management": {
+      "keywords": ["project management", "agile management", "scrum", "project planning", "kanban", "project management life cycle"],
+      "prerequisites": []
+    },
+    "Product Management": {
+      "keywords": ["product management", "product development", "product strategy", "product roadmap", "product design"],
+      "prerequisites": []
+    },
+    "Business Strategy": {
+      "keywords": ["business strategy", "strategic management", "corporate strategy", "competitive strategy", "competitive advantage", "business model", "business model canvas"],
+      "prerequisites": []
+    },
+    "Marketing Fundamentals": {
+      "keywords": ["marketing", "marketing strategy", "brand management", "branding", "consumer behaviour", "consumer behavior", "market research"],
+      "prerequisites": []
+    },
+    "Digital Marketing": {
+      "keywords": ["digital marketing", "social media marketing", "search engine optimization", "seo", "content marketing", "google ads", "email marketing", "online advertising", "social media"],
+      "prerequisites": [["Marketing Fundamentals"]]
+    },
+    "Finance & Accounting": {
+      "keywords": ["finance", "accounting", "financial analysis", "financial accounting", "corporate finance", "financial statement", "investment", "valuation", "balance sheet"],
+      "prerequisites": []
+    },
+    "Business Communication": {
+      "keywords": ["communication", "business communication", "presentation", "business writing", "public speaking", "negotiation", "storytelling"],
+      "prerequisites": []
+    },
+    "Leadership & Management": {
+      "keywords": ["leadership", "leadership and management", "people management", "team building", "organizational behavior", "team management"],
+      "prerequisites": []
+    },
+    "Business Analysis": {
+      "keywords": ["business analysis", "business analytics", "business intelligence", "requirements analysis", "process improvement", "business process"],
+      "prerequisites": [["Data Analysis", "Spreadsheets (Excel)"]]
+    },
+    "Entrepreneurship": {
+      "keywords": ["entrepreneurship", "startup", "start-up", "business plan", "innovation", "venture capital"],
+      "prerequisites": []
+    }
+  },
+  "careers": {
+    "Data Scientist": {
+      "description": "Extracts insight from data using statistics, programming and machine learning.",
+      "required_skills": ["Python Programming", "Statistics", "Linear Algebra", "SQL & Databases", "Data Analysis", "Data Visualization", "Machine Learning", "Deep Learning"],
+      "related_subdomains": ["data-analysis", "machine-learning", "probability-and-statistics", "data-management"]
+    },
+    "Machine Learning Engineer": {
+      "description": "Builds, trains and deploys machine-learning models in production software.",
+      "required_skills": ["Python Programming", "Linear Algebra", "Calculus", "Statistics", "Software Engineering", "Machine Learning", "Deep Learning", "Cloud Computing", "MLOps & Model Deployment"],
+      "related_subdomains": ["machine-learning", "software-development", "cloud-computing", "algorithms"]
+    },
+    "Data Analyst": {
+      "description": "Cleans, analyses and visualises data to support business decisions.",
+      "required_skills": ["Spreadsheets (Excel)", "SQL & Databases", "Statistics", "Python Programming", "Data Analysis", "Data Visualization", "Business Communication"],
+      "related_subdomains": ["data-analysis", "data-management", "probability-and-statistics", "business-essentials"]
+    },
+    "Web Developer": {
+      "description": "Designs and builds websites and web applications.",
+      "required_skills": ["HTML & CSS", "JavaScript", "Web Development", "SQL & Databases", "Software Engineering", "UX / UI Design"],
+      "related_subdomains": ["mobile-and-web-development", "software-development", "design-and-product"]
+    },
+    "Software Engineer": {
+      "description": "Designs, writes and maintains reliable software systems.",
+      "required_skills": ["Computer Programming Fundamentals", "Python Programming", "Java Programming", "Data Structures & Algorithms", "Software Engineering", "SQL & Databases", "DevOps"],
+      "related_subdomains": ["software-development", "algorithms", "mobile-and-web-development"]
+    },
+    "Cloud & DevOps Engineer": {
+      "description": "Operates cloud infrastructure and automates software delivery.",
+      "required_skills": ["Linux & Command Line", "Networking", "Python Programming", "Cloud Computing", "DevOps", "Cybersecurity"],
+      "related_subdomains": ["cloud-computing", "computer-security-and-networks", "support-and-operations", "networking"]
+    },
+    "Cybersecurity Analyst": {
+      "description": "Protects systems and networks from attacks and investigates incidents.",
+      "required_skills": ["Networking", "Linux & Command Line", "Python Programming", "Cybersecurity", "Cloud Computing"],
+      "related_subdomains": ["computer-security-and-networks", "security", "networking", "support-and-operations"]
+    },
+    "Business Analyst": {
+      "description": "Translates business needs into data-informed requirements and decisions.",
+      "required_skills": ["Spreadsheets (Excel)", "SQL & Databases", "Data Analysis", "Data Visualization", "Business Analysis", "Business Communication", "Project Management"],
+      "related_subdomains": ["business-essentials", "data-analysis", "business-strategy", "leadership-and-management"]
+    },
+    "Product Manager": {
+      "description": "Decides what a product should do and coordinates the team that builds it.",
+      "required_skills": ["Product Management", "UX / UI Design", "Business Strategy", "Data Analysis", "Project Management", "Business Communication", "Marketing Fundamentals"],
+      "related_subdomains": ["design-and-product", "business-strategy", "leadership-and-management", "entrepreneurship"]
+    },
+    "Digital Marketer": {
+      "description": "Plans and measures online marketing campaigns.",
+      "required_skills": ["Marketing Fundamentals", "Digital Marketing", "Data Analysis", "Business Communication", "Graphic Design"],
+      "related_subdomains": ["marketing", "design-and-product", "business-essentials"]
+    },
+    "UX Designer": {
+      "description": "Researches users and designs usable digital interfaces.",
+      "required_skills": ["UX / UI Design", "Graphic Design", "HTML & CSS", "Business Communication", "Product Management"],
+      "related_subdomains": ["design-and-product", "mobile-and-web-development"]
+    }
+  }
+}

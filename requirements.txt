@@ -1,0 +1,14 @@
+# Versions used and tested for SkillBridge (Python 3.13)
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+streamlit==1.66.0
+plotly==7.1.0
+mlxtend==0.25.0
+pytest==9.1.1
+# Evaluation notebook (notebooks/evaluation_results.ipynb)
+matplotlib==3.11.2
+ipykernel==7.4.0
+nbformat==5.11.1
+nbclient==0.11.0

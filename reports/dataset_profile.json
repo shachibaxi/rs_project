@@ -1,0 +1,100 @@
+{
+  "raw_rows": 3522,
+  "raw_columns": [
+    "Course Name",
+    "University",
+    "Difficulty Level",
+    "Course Rating",
+    "Course URL",
+    "Course Description",
+    "Skills"
+  ],
+  "raw_missing_values": {
+    "Course Name": 0,
+    "University": 0,
+    "Difficulty Level": 0,
+    "Course Rating": 0,
+    "Course URL": 0,
+    "Course Description": 0,
+    "Skills": 0
+  },
+  "raw_exact_duplicate_rows": 98,
+  "raw_duplicate_urls": 98,
+  "raw_non_numeric_ratings": {
+    "Not Calibrated": 82
+  },
+  "clean_rows": 3424,
+  "duplicate_titles_with_different_urls": 8,
+  "difficulty_distribution": {
+    "Beginner": 1406,
+    "Advanced": 991,
+    "Intermediate": 823,
+    "Conversant": 154,
+    "Not Calibrated": 50
+  },
+  "rating_summary": {
+    "count": 3342.0,
+    "mean": 4.552,
+    "std": 0.341,
+    "min": 1.0,
+    "25%": 4.5,
+    "50%": 4.6,
+    "75%": 4.8,
+    "max": 5.0
+  },
+  "rated_courses": 3342,
+  "providers": 184,
+  "top_providers": {
+    "Coursera Project Network": 562,
+    "University of Illinois at Urbana-Champaign": 138,
+    "Johns Hopkins University": 101,
+    "University of Colorado Boulder": 101,
+    "University of Michigan": 101,
+    "University of California, Irvine": 83,
+    "University of Colorado System": 81,
+    "University of California San Diego": 79,
+    "Google Cloud": 70,
+    "University of California, Davis": 54
+  },
+  "domains": {
+    "business": 777,
+    "computer-science": 582,
+    "data-science": 501,
+    "life-sciences": 376,
+    "physical-science-and-engineering": 300,
+    "social-sciences": 279,
+    "arts-and-humanities": 219,
+    "information-technology": 174,
+    "language-learning": 105,
+    "personal-development": 74,
+    "math-and-logic": 32,
+    "unknown": 5
+  },
+  "subdomains": 45,
+  "courses_without_subdomain": 5,
+  "courses_without_skill_tags": 0,
+  "description_length_chars": {
+    "count": 3424.0,
+    "mean": 1153.3,
+    "std": 705.1,
+    "min": 4.0,
+    "25%": 696.8,
+    "50%": 1021.5,
+    "75%": 1433.5,
+    "max": 8632.0
+  },
+  "short_descriptions": 2,
+  "descriptions_with_repaired_characters": 1841,
+  "skill_tags_per_course": {
+    "count": 3424.0,
+    "mean": 10.0,
+    "std": 0.09,
+    "min": 6.0,
+    "25%": 10.0,
+    "50%": 10.0,
+    "75%": 10.0,
+    "max": 11.0
+  },
+  "unique_skill_tags": 6124,
+  "valid_coursera_urls": 3424
+}

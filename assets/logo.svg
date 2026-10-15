@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="36" viewBox="0 0 180 36">
+  <rect x="0" y="2" width="32" height="32" rx="9" fill="#1c5cab"/>
+  <path d="M6 24 Q16 10 26 24" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M5 24 H27" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M11 24 V19 M16 24 V16.5 M21 24 V19" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="42" y="25" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" fill="#14161a">SkillBridge</text>
+</svg>

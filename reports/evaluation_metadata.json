@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-10-15T19:12:27+00:00",
+  "k": 10,
+  "random_seed": 7,
+  "bootstrap_resamples": 1000,
+  "catalogue_courses": 3424,
+  "rated_courses": 3342,
+  "experiment_A": {
+    "query_courses": 400
+  },
+  "experiment_B": {
+    "profiles": 99,
+    "known_skill_shares": [
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "cv_folds": 2,
+    "fold_of_career": {
+      "Business Analyst": 0,
+      "Cloud & DevOps Engineer": 1,
+      "Cybersecurity Analyst": 0,
+      "Data Analyst": 1,
+      "Data Scientist": 0,
+      "Digital Marketer": 1,
+      "Machine Learning Engineer": 0,
+      "Product Manager": 1,
+      "Software Engineer": 0,
+      "UX Designer": 1,
+      "Web Developer": 0
+    },
+    "fold_selections": {
+      "0": {
+        "weights": {
+          "content": 0.1,
+          "knowledge": 0.7,
+          "quality": 0.1
+        },
+        "validation_graded_ndcg": 0.5732094966183907
+      },
+      "1": {
+        "weights": {
+          "content": 0.1,
+          "knowledge": 0.5,
+          "quality": 0.0
+        },
+        "validation_graded_ndcg": 0.7190858618453091
+      }
+    },
+    "selected_for_application": {
+      "weights": {
+        "content": 0.1,
+        "knowledge": 0.7,
+        "quality": 0.1
+      },
+      "validation_graded_ndcg": 0.6519348036858544
+    },
+    "hybrid_grid": {
+      "content": [
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "knowledge": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "quality": [
+        0.0,
+        0.1,
+        0.2
+      ]
+    },
+    "application_diversity": 0.85,
+    "hand_set_weights": {
+      "content": 0.35,
+      "knowledge": 0.45,
+      "quality": 0.2,
+      "collaborative": 0.15
+    }
+  },
+  "experiment_C": {
+    "train_interactions": 9688,
+    "test_interactions": 2420,
+    "learners": 1200,
+    "cf_params": {
+      "n_neighbours": 400,
+      "shrinkage": 50.0
+    },
+    "cf_validation_ndcg": {
+      "k=30, shrinkage=5.0": 0.00707,
+      "k=30, shrinkage=20.0": 0.01029,
+      "k=30, shrinkage=50.0": 0.01031,
+      "k=100, shrinkage=5.0": 0.00924,
+      "k=100, shrinkage=20.0": 0.01166,
+      "k=100, shrinkage=50.0": 0.01193,
+      "k=400, shrinkage=5.0": 0.01084,
+      "k=400, shrinkage=20.0": 0.01212,
+      "k=400, shrinkage=50.0": 0.01216
+    },
+    "hybrid_weights": {
+      "content": 0.25,
+      "knowledge": 1.0,
+      "quality": 0.5,
+      "collaborative": 1.0
+    },
+    "hybrid_validation_ndcg": 0.029086181505843526,
+    "weight_grid": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "cf_neighbour_grid": [
+      30,
+      100,
+      400
+    ],
+    "cf_shrinkage_grid": [
+      5.0,
+      20.0,
+      50.0
+    ]
+  },
+  "default_hybrid_weights": {
+    "content": 0.1,
+    "knowledge": 0.7,
+    "quality": 0.1,
+    "collaborative": 0.15
+  },
+  "notes": "Offline proxy/synthetic evaluation only; no user-satisfaction evidence."
+}

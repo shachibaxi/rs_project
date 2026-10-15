@@ -1,0 +1,14 @@
+experiment,comparison,metric,difference,ci_low,ci_high,n,ci_excludes_zero
+A. Similar courses,Content-based - Top-rated baseline,NDCG@10,0.5275818098809516,0.4960752005435874,0.5569628615291564,400,True
+A. Similar courses,Content-based - Random baseline,NDCG@10,0.5237619440843884,0.49175995146099044,0.5527754885972622,400,True
+B. Learner profiles,Hybrid (cross-validated) - Content-based,NDCG@10 (topic + level),0.24585323658658878,0.20251728593347637,0.2918599188320344,99,True
+B. Learner profiles,Hybrid (cross-validated) - Knowledge-based,NDCG@10 (topic + level),0.08772081932920436,0.05540902994908209,0.11836680010385373,99,True
+B. Learner profiles,Hybrid (cross-validated) - Hybrid (hand-set weights),NDCG@10 (topic + level),0.10066957598435852,0.0714979413114509,0.13288578362650427,99,True
+B. Learner profiles,Hybrid (cross-validated) - Content-based,NDCG@10,-0.07642036473939805,-0.11235542200931002,-0.04100870778523343,99,True
+B. Learner profiles,Hybrid (cross-validated) - Top-rated baseline,NDCG@10 (topic + level),0.5542408867434755,0.49937361328626606,0.6067639423758319,99,True
+B. Learner profiles,Hybrid (cross-validated) + diversity - Hybrid (cross-validated),NDCG@10 (topic + level),-0.02479263154693494,-0.03972754451609272,-0.010491848841365925,99,True
+B. Learner profiles,Hybrid (cross-validated) + diversity - Hybrid (cross-validated),Diversity (ILD),0.024637521045343537,0.020411106084313957,0.029247544015217116,99,True
+C. Synthetic interactions,Hybrid (tuned on validation) - Item-kNN CF,NDCG@10,0.00392238199182022,-0.00023811297069921858,0.007921471805116488,1200,False
+C. Synthetic interactions,Hybrid (tuned on validation) - Most-completed (synthetic popularity),NDCG@10,-0.002044249174820838,-0.008172751742996254,0.004415915754891018,1200,False
+C. Synthetic interactions,Item-kNN CF - Most-completed (synthetic popularity),NDCG@10,-0.005966631166641058,-0.011735171564764921,-0.0007736134031457024,1200,True
+C. Synthetic interactions,Item-kNN CF - Content-based (history),NDCG@10,0.00963941023745561,0.005254392113735529,0.014514169988791771,1200,True
